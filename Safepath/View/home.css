@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2e7d32;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c8e6c9;
+}
+
+/* Hero Section Styling */
+#hero {
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section Styling */
+#contact {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #388e3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styling for the Incident Slider and Cards */
+.incident-slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates a 4-column grid */
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.incident-card {
+    width: 80%; /* Adjusted width to make cards smaller */
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    max-height: 300px; /* Limiting card height */
+}
+
+.incident-card img {
+    width: 100%;
+    height: 150px; /* Fixed image height */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Label Styling */
+.incident-info h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.incident-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Arrows for Navigation */
+.side-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}

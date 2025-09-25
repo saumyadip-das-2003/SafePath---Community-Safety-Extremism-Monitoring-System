@@ -1,0 +1,100 @@
+/* Announcement List */
+.announcement-list {
+    margin-top: 30px;
+}
+
+/* Each Card */
+.announcement-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Labels */
+.announcement-card label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Inputs */
+.announcement-card input[type="text"],
+.announcement-card textarea,
+.announcement-card select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Buttons side by side */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button-group .btn,
+.button-group .btn-delete {
+    flex: 1;
+    text-align: center;
+}
+
+/* Save Button */
+.announcement-card .btn {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.announcement-card .btn:hover {
+    background-color: #218838;
+}
+
+/* Delete Button */
+.announcement-card .btn-delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.announcement-card .btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Filter Form */
+.filter-form {
+    margin-bottom: 20px;
+}
+
+.filter-form label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Status Message */
+.status-message {
+    background-color: #eafaf1;
+    border: 1px solid #28a745;
+    color: #155724;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

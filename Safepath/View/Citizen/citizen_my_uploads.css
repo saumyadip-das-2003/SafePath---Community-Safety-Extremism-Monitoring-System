@@ -1,0 +1,88 @@
+/* Incident Card Styling */
+.incident-card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.incident-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.incident-card label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.incident-card input, .incident-card textarea, .incident-card button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.incident-card input[type="file"] {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.incident-card button {
+    background-color: #28a745;  /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.incident-card button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+/* Image Styling */
+.incident-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.incident-images img.incident-image {
+    max-width: 200px; /* Fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Make sure the image fills the container without distortion */
+}
+
+/* Hover Effect for Image */
+.incident-images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Status message */
+.status-message {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Hover Effect for Image */
+.incident-images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}

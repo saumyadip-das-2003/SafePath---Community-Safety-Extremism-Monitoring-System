@@ -1,0 +1,42 @@
+/* announcements.css */
+.announcement-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.announcement-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.announcement-card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.announcement-card strong {
+    color: #333;
+}
+
+.search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form input {
+    width: 70%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}

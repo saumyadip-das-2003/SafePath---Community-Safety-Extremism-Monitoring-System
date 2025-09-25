@@ -1,0 +1,51 @@
+/* Announcement Form Styling */
+.announcement-form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    border: 1px solid #ddd;
+}
+
+.announcement-form .form-group {
+    margin-bottom: 20px;
+}
+
+.announcement-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.announcement-form input[type="text"], .announcement-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.announcement-form button {
+    background-color: #28a745;  /* Green button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.announcement-form button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+.status-message {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}

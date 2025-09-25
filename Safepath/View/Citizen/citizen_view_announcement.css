@@ -1,0 +1,36 @@
+/* Announcement Card Styling */
+.announcement-card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.announcement-card:hover {
+    transform: scale(1.02);  /* Slight hover effect */
+}
+
+.announcement-card h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.announcement-card p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.announcement-card .created-at {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 5px;
+    font-style: italic;
+}

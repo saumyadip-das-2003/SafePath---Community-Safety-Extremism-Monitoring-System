@@ -1,0 +1,90 @@
+/* Styling for the form container */
+.update-citizen-form {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Ensure spacing between header and form */
+}
+
+/* Styling for the search bar */
+.search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px; /* Space above the search form */
+}
+
+.search-form input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for search button */
+.search-form button:hover {
+    background-color: #1b5e20;
+}
+
+/* Citizen form input fields styling */
+.update-citizen-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.update-citizen-form input[type="text"],
+.update-citizen-form input[type="date"],
+.update-citizen-form input[type="email"],
+.update-citizen-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.update-citizen-form button {
+    padding: 12px 25px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-citizen-form button:hover {
+    background-color: #1b5e20;
+}
+
+/* Profile Image Display */
+.profile-image-container {
+    margin-bottom: 15px;
+}
+
+.profile-image-container img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

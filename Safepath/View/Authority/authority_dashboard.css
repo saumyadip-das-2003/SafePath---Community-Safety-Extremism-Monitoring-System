@@ -1,0 +1,67 @@
+/* Incident Card Design */
+.incident-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.incident-card h4 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.incident-card p {
+    font-size: 1.1em;
+}
+
+.incident-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.incident-images img.incident-image {
+    max-width: 300px; /* Limit image width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.incident-card form {
+    margin-top: 20px;
+}
+
+.incident-card label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.incident-card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.incident-card .btn {
+    background-color: #28a745;  /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.incident-card .btn:hover {
+    background-color: #218838;
+}
+
+.incident-card .btn:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}

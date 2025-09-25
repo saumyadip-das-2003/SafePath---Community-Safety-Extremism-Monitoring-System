@@ -1,0 +1,83 @@
+/* Incident Feed Layout */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top-bar input,
+.top-bar select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Incident Card */
+.incident-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.incident-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.incident-card h3 {
+    margin: 10px 0;
+    color: #2e7d32;
+}
+
+.incident-images {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.incident-images img {
+    max-width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Action Buttons */
+.incident-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn.upvote {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn.downvote {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn.comment {
+    background-color: #2196f3;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
